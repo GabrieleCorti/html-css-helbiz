@@ -21,6 +21,11 @@ ul {
     color: black;
 }
 
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
 /*button*/
 .button_basic {
     background-color: black;
@@ -77,3 +82,10 @@ header {
     line-height: 50px;
 }
 
+.hero_img {
+    width: 100%;
+}
+
+.mt-1 {
+    margin-top: 30px;
+}
