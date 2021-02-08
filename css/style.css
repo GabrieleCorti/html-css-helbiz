@@ -6,6 +6,10 @@ body {
 ul {
     margin-bottom: 0;
 }
+/*section*/
+#section-1 {
+    padding-top: 90px;
+}
 /*typo*/
 .link_free {
     color: black;
@@ -107,6 +111,7 @@ h1 {
 .card {
     background-color: #FAFAFA;
     padding: 96px 0 32px 0;
+    margin-bottom: 20px;
 }
 
 .card__title {
@@ -120,6 +125,10 @@ h1 {
 .card__img {
     margin-top: 70px;
     height: 200px;
+}
+
+.card a {
+    display: block;
 }
 
 .card a:hover {
