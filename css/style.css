@@ -6,6 +6,10 @@ body {
 ul {
     margin-bottom: 0;
 }
+
+.in_liner {
+    display: inline-block;
+}
 /*section*/
 #section-1 {
     padding-top: 90px;
@@ -35,6 +39,17 @@ h1 {
     font-size: 20px;
 }
 
+.how h2, .how h3 {
+    font-weight: bold;
+}
+
+.how h2 {
+    font-size: 33px ;
+}
+
+.how p {
+    font-size: 16px;
+}
 /*button*/
 .button_basic {
     background-color: black;
@@ -133,4 +148,66 @@ h1 {
 
 .card a:hover {
     color: #337ab7;
+}
+/*section-2*/
+
+#section-2 {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.how {
+    position: relative;
+    max-width: 800px;
+    top: 200px;
+    margin: auto;
+
+}
+
+
+.how__process,
+.how__title,
+.how__iphon {
+    width: calc((100% / 3));
+    position: relative;
+}
+
+.how__iphon {
+    left: calc(100% / 3);
+}
+.how__title {
+    right: calc(100% / 3)
+}
+
+.how__title, .how__process {
+    top: 100px;
+}
+
+.how__process {
+    padding: 0 25px;
+}
+.iphon__img {
+   max-width: 220px;
+}
+
+@media screen and (max-width: 992px){
+
+    .how__iphon,
+    .how__title,
+    .how__process {
+        display: block;
+        width: 100%;
+
+    }
+
+    .how__title,
+    .how__process {
+        position: static;
+    }
+
+    .how__process {
+        padding-left: 0;
+        margin-top: 30px;
+    }
 }
