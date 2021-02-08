@@ -26,6 +26,11 @@ h1 {
     font-weight: bold;
     color: black;
 }
+
+.card p, .card a {
+    font-size: 20px;
+}
+
 /*button*/
 .button_basic {
     background-color: black;
@@ -52,13 +57,14 @@ h1 {
 
 
 /*header*/
-header {
+.fix_ed {
     height: 50px;
     background-color: white;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .logo svg {
@@ -97,3 +103,25 @@ header {
     padding-top: 12px;
 }
 /*section-1*/
+/*card*/
+.card {
+    background-color: #FAFAFA;
+    padding: 96px 0 32px 0;
+}
+
+.card__title {
+    width: 200px;
+}
+
+.card p {
+    margin: 32px 0;
+}
+
+.card__img {
+    margin-top: 70px;
+    height: 200px;
+}
+
+.card a:hover {
+    color: #337ab7;
+}
